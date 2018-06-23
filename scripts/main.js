@@ -2,7 +2,7 @@ var myHeading = document.querySelector('h1');
 myHeading.textContent = 'Hello world!';
 
 
-var myImage = document.querySelector('img');
+var myImage = document.querySelector('#slika');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
